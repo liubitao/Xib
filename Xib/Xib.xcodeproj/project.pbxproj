@@ -132,20 +132,12 @@
 				0C56F1521D016DE200182266 /* AppDelegate.m */,
 				0C56F1541D016DE300182266 /* ViewController.h */,
 				0C56F1551D016DE300182266 /* ViewController.m */,
-				0C388A391D0556DC00DB6927 /* cell1.xib */,
-				0C388A3B1D055AA700DB6927 /* cell2.xib */,
-				0C388A3D1D055E9400DB6927 /* cell3.xib */,
-				0C388A3F1D05663700DB6927 /* Cell3View.h */,
-				0C388A401D05663700DB6927 /* Cell3View.m */,
-				0C388A421D0566D900DB6927 /* Cell4.xib */,
-				0C388A441D05671300DB6927 /* Cell4.h */,
-				0C388A451D05671300DB6927 /* Cell4.m */,
-				0C388A471D056C2600DB6927 /* cell5.xib */,
-				0C388A491D056D9A00DB6927 /* Cell5ViewController.h */,
-				0C388A4A1D056D9A00DB6927 /* Cell5ViewController.m */,
-				0C388A4C1D05766300DB6927 /* cell6.xib */,
-				0C388A4E1D05768800DB6927 /* Cell6ViewController.h */,
-				0C388A4F1D05768800DB6927 /* Cell6ViewController.m */,
+				0C6226F31FE8AD4A007AD423 /* cell1 */,
+				0C6226F51FE8AD5C007AD423 /* cell2 */,
+				0C6226F71FE8AD62007AD423 /* cell3 */,
+				0C6226F91FE8AD68007AD423 /* cell4 */,
+				0C6226FB1FE8AD7B007AD423 /* cell5 */,
+				0C6226FC1FE8AD80007AD423 /* cell6 */,
 				0C388A511D0577B400DB6927 /* UIViewController+NIB.h */,
 				0C388A521D0577B400DB6927 /* UIViewController+NIB.m */,
 				0C56F1571D016DE400182266 /* Main.storyboard */,
@@ -181,6 +173,62 @@
 				0C56F1751D016DE900182266 /* Info.plist */,
 			);
 			path = XibUITests;
+			sourceTree = "<group>";
+		};
+		0C6226F31FE8AD4A007AD423 /* cell1 */ = {
+			isa = PBXGroup;
+			children = (
+				0C388A391D0556DC00DB6927 /* cell1.xib */,
+			);
+			path = cell1;
+			sourceTree = "<group>";
+		};
+		0C6226F51FE8AD5C007AD423 /* cell2 */ = {
+			isa = PBXGroup;
+			children = (
+				0C388A3B1D055AA700DB6927 /* cell2.xib */,
+			);
+			path = cell2;
+			sourceTree = "<group>";
+		};
+		0C6226F71FE8AD62007AD423 /* cell3 */ = {
+			isa = PBXGroup;
+			children = (
+				0C388A3F1D05663700DB6927 /* Cell3View.h */,
+				0C388A401D05663700DB6927 /* Cell3View.m */,
+				0C388A3D1D055E9400DB6927 /* cell3.xib */,
+			);
+			path = cell3;
+			sourceTree = "<group>";
+		};
+		0C6226F91FE8AD68007AD423 /* cell4 */ = {
+			isa = PBXGroup;
+			children = (
+				0C388A441D05671300DB6927 /* Cell4.h */,
+				0C388A451D05671300DB6927 /* Cell4.m */,
+				0C388A421D0566D900DB6927 /* Cell4.xib */,
+			);
+			path = cell4;
+			sourceTree = "<group>";
+		};
+		0C6226FB1FE8AD7B007AD423 /* cell5 */ = {
+			isa = PBXGroup;
+			children = (
+				0C388A471D056C2600DB6927 /* cell5.xib */,
+				0C388A491D056D9A00DB6927 /* Cell5ViewController.h */,
+				0C388A4A1D056D9A00DB6927 /* Cell5ViewController.m */,
+			);
+			path = cell5;
+			sourceTree = "<group>";
+		};
+		0C6226FC1FE8AD80007AD423 /* cell6 */ = {
+			isa = PBXGroup;
+			children = (
+				0C388A4C1D05766300DB6927 /* cell6.xib */,
+				0C388A4E1D05768800DB6927 /* Cell6ViewController.h */,
+				0C388A4F1D05768800DB6927 /* Cell6ViewController.m */,
+			);
+			path = cell6;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

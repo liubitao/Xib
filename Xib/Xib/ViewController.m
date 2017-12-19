@@ -103,9 +103,6 @@
 - (void)loadCell5{
     self.cell5VC = [[Cell5ViewController alloc] initWithNibName:@"cell5" bundle:[NSBundle mainBundle]];
     
-    // 或使用Conveniece Method，但要求xib文件名和View Controller类名一致
-    // self.blackViewController = [BlackViewController viewControllerFromNIB];
-    
     UIView *cell5 = _cell5VC.view;
     CGRect rect = cell5.frame;
     rect.origin.x = _cell4.frame.origin.x;
